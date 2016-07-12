@@ -6,7 +6,7 @@
 	line-height: 40px;
 	text-align: center;
 }
-.main_mnu_button {
+/*.main_mnu_button {
     position: absolute;
     left: 50%;
     bottom: -40px;
@@ -14,7 +14,7 @@
     padding: 0px 5px;
     font-size: 32px;
     display: block;
-}
+}*/
 .main_mnu_button:link{
 	border-color: red;
 }
@@ -65,7 +65,14 @@
 .nav_menu li:last-child {
     /*background-color: #efedea;*/
 }
-
+.looking{
+    padding: 70px 0 70px;
+    height: auto;
+}
+.main-head .nav_menu li {
+  display: block;
+}
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 .ready h1{
@@ -92,10 +99,11 @@
 }
 .main_mnu_button {
     position: absolute;
-    left: 50%;
+    right: 0;
     bottom: 0px;
-    margin-left: 165px;
+    /*margin-left: 165px;*/
     padding: 0px 5px;
+    margin-left: 0;
     font-size: 32px;
     display: block;
 }
@@ -104,6 +112,9 @@
 }
 .fotos{
     text-align: center;
+}
+.looking_for h1{
+    font-size: 27px;
 }
 }
 
@@ -119,14 +130,11 @@
 .menu_head_left{
 	float: right;
 }
-.main_mnu_button {
-    margin-left: 165px;
-}
+
 .main_mnu_button {
     position: absolute;
-    left: -178px;
+    left: 0;
     bottom: 0px;
-    margin-left: 165px;
     padding: 0px 5px;
     font-size: 32px;
     display: block;
@@ -137,14 +145,25 @@
 .right a {
     display: block;
 }
-.smart a {
-    margin-left: 56px;
+.smart  {
+    text-align: center;
 }
 .mobila_img{
  width: auto;
  max-height: 400px;
 }
-
+.main-head .menu_head_left>span{
+    font-size: 22px;
+}
+.main_head .menu_head_left>span{
+    font-size: 22px;
+}
+.select{
+    text-align: center;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 }
 
 
@@ -156,12 +175,15 @@
  .right a {
     display: block;
 }
-.smart a {
+/*.smart a {
     margin-left: 56px;
-}
+}*/
 .mobila_img {
     width: auto;
     max-height: 400px;
+}
+.select{
+    max-width: 280px;
 }
 }
 /*==========  Mobile First Method  ==========*/
