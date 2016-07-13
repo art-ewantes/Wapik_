@@ -1411,3 +1411,29 @@ input[type="text"]{
 .head_contact .nav_menu li a{
   color: #83a7a5;
 }
+
+.developed{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px 10px;
+  
+}
+.developed span{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+
+}
+.developed img{
+
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  
+}
+
+
+
+
+
