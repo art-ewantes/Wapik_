@@ -1401,6 +1401,10 @@ input[type="text"]{
   color: #000;
   transition: .3s;
 }
+.head_contact .nav_menu .color a:hover{
+  color: #000;
+  transition: .3s;
+}
 .head_contact .nav_menu .color a{
   color: #fff;
 }
