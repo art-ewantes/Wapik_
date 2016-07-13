@@ -116,6 +116,7 @@
 .looking_for h1{
     font-size: 27px;
 }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -156,6 +157,9 @@
     font-size: 22px;
 }
 .main_head .menu_head_left>span{
+    font-size: 22px;
+}
+.head_contact .menu_head_left>span{
     font-size: 22px;
 }
 .select{
